@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav .logo {
+  margin-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.right-nav button {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Login Section */
+#login-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-container form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Movies Section */
+#movies-section {
+  padding: 20px;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h3 {
+  margin-top: 10px;
+}
+
+ .movie-details-container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .movie-image {
+      flex: 0 0 auto;
+      margin-right: 20px;
+    }
+
+    .back-section {
+      margin-bottom: 20px;
+    }
+
+    .back-link {
+      color: #333;
+      text-decoration: none;
+    }
+
+  .movie-image img {
+      width: 200px;
+      height: auto;
+    }
