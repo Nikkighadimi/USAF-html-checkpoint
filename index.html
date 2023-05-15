@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GMDB Website</title>
+  <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left-nav">
+        <a href="#" class="logo">GMDB</a>
+        <a href="#">Home</a>
+        <a href="#">Login</a>
+      </div>
+      <div class="right-nav">
+        <input type="text" id="search-input" placeholder="Search">
+        <button type="button">Search</button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="login-section">
+    <div class="login-container">
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="movies-section">
+    <div class="movies-container">
+      <a href="movie.html" class="movie-link">
+        <div class="movie-card">
+          <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="Godfather">
+        </div>
+      </a>
+      <a href="movie.html" class="movie-link" data-keywords="ForTheBirds">
+        <div class="movie-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/77/For_the_Birds_%28film%29_poster.jpg" alt="ForTheBirds">
+        </div>
+      </a>
+      <a href="movie.html" class="movie-link" data-keywords="StarWars">
+        <div class="movie-card">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-film-page_bca06283.jpeg" alt="StarWars">
+        </div>
+      </a>
+      <a href="movie.html" class="movie-link" data-keywords="TheGuardianOfGalaxy">
+        <div class="movie-card">
+          <img src="https://m.media-amazon.com/images/M/MV5BOGYyNzAzNzgtZTgzNC00YjNhLTg3NWYtMWI4ZGVmNzZlZjMxXkEyXkFqcGdeQXVyMDM0MzU2NA@@._V1_" alt="TheGuardianOfGalaxy">
+        </div>
+      </a>
+      <a href="movie.html" class="movie-link" data-keywords="Avatar">
+        <div class="movie-card">
+          <img src="https://cdna.artstation.com/p/assets/images/images/031/645/214/large/shreyas-raut-avatar-2.jpg?1604210989" alt="Avatar">
+        </div>
+      </a>
+    </div>
+  </section>
+</body>
+</html>
